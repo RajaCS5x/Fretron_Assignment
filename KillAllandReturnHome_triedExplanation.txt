@@ -1,0 +1,35 @@
+**Kill All and Return Home
+
+firstly I have observed it as a Matrix which has some boxes marked and we have given(1,2) as HOME from here we have to start and come back to it after going through some of other nodes.
+
+I have thought to make picking and not picking for kill choice for every node unless the node is at extreme and if the node is not picked for killing this time then it will be killed next time and it will produce another path.
+
+SEARCH :
+		{
+java - find if path exists in matrix - Stack Overflow
+stackoverflow.com
+12:22 PM
+find the path back to same node in matirx through 1's only - Yahoo India Search Results
+in.search.yahoo.com
+12:21 PM
+adjacency matrix - How to find number of paths between 2 nodes of a certain length - Computer Science Stack Exchange
+cs.stackexchange.com
+12:20 PM
+Find the path from source to destination in a matrix that satisfies given constraints | Techie Delight
+techiedelight.com
+12:20 PM
+matrix problem of finding path throught particular nodes - Yahoo India Search Results
+in.search.yahoo.com
+12:10 PM
+Count all possible Paths between two Vertices - GeeksforGeeks
+geeksforgeeks.org
+12:08 PM
+combinatorics - Calculating the number of possible paths through some squares - Mathematics Stack Exchange
+math.stackexchange.com
+12:08 PM
+how to calculate no of paths in mattrix with passing throught particular check points - Yahoo India Search Results
+in.search.yahoo.com }
+
+RESULT : 
+	I have thought of doing it like subsequence problem like visiting node and taking them for either JUM or KILL and marking for JUMP to pop(KILL) next time.
+but during writing code I face to issue to categorize the nodes at extreme, I thought of saving the visited and going ahead if size is reached then consider visited one as extreme and marking it for KILL.
