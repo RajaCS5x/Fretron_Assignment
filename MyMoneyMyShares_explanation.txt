@@ -1,0 +1,12 @@
+**My Money My Shares
+
+This question only involves the understanding of programming language and Maths concept so I have not used Google for solving it.
+
+In this problem firstly I have taken inputs as per the given instruction then calculated the shares of each one,
+As we have to divide Apples by weight so I have calculated the exact weight which will be given to each one corresponding to there money share.
+Eg: total_amount_paid =100;
+	ram_paid=50,sham_paid=30,rahim_paid=20;
+	shares = (100/50),(100/30),(100/20);
+	then get the corresponding weight;
+
+
